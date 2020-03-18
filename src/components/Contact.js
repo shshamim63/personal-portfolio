@@ -15,7 +15,7 @@ const Contact = () => {
                     <ul className="site-contact-details">
                         <li>
                             <span className="text-uppercase">Email</span>
-                            shshamim63@gmail.com
+                            shakhawathossain032@gmail.com
                         </li>
                         <li>
                             <span className="text-uppercase">Phone</span>
