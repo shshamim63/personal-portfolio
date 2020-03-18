@@ -1,0 +1,14 @@
+@import './custom.scss';
+.navbar {
+    position: absolute !important; 
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-body {
+      background-color: aliceblue !important;
+    }
+}
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+}
