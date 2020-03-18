@@ -6,7 +6,7 @@ const AboutMe = () => (
       <div className="container">
         <div className="row mb-5 align-items-center">
           <div className="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
-            <img src={require("../images/Profile_Scott.png")} className="img-fluid" alt="Hello"></img>
+            <img src={require("../images/aboutpicture.jpg")} className="img-fluid" alt="Hello"></img>
           </div>
           <div className="col-lg-5 pl-lg-5">
             <div className="section-heading">
