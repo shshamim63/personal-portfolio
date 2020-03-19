@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Personal Portfolio 👋</h1>
 
-## Available Scripts
+[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-In the project directory, you can run:
+![portfolio](src/images/portfolio.png)
 
-### `yarn start`
+The project is a solid structure for a more complex web page. Is basically a portfolio contains four major sections-<br>
+1. (About Section) User's information
+2. (Project Section) User's recent projects
+3. (Article Section) User's blogs
+4. (Contact section) Social icons with email address and mobile. 
+## Table of Contents
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Maintainers](#maintainers)
+- [Contributing](#contributing)
+- [License](#license)  
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Background
 
-### `yarn test`
+1. React
+2. HTML CSS
+3. Bootstrap
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Install
+1. Run `npm install` on the terminal. It will install all the dependencies required for this project.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+To run the project:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Clone the repository: `git@githubcom:shshamim63/personal-portfolio.git`
+- Run `cd personal-portfolio` to enter into project folder. 
+- Run `npm install` It will install all the dependencies required by the project
+- Run `npm start` to start the development server. It will automatically open the page in your default browser.
+- Run `npm run build` to get a deployable version.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment
+[Live Demo](https://kababworld.netlify.com/)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Maintainers
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👤 **Shakhawat Hossain**
+- Github: [@shshamim63](https://github.com/shshamim63)
+- LinkedIn: [@shakhawathossainshamim](https://www.linkedin.com/in/shakhawathossainshamim/)
+- Twitter: [@Shshamim090](https://twitter.com/Shshamim090)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🤝 Contributing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Always welcome to contribute if you want to make it better.**
+1. Fork it (https://github.com/shshamim63/personal-portfolio)
+2. Create your feature branch (git checkout -b feature/[choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add')
+4. Push to the branch (git push origin feature/[chosen-name])
+5. Create a new Pull Request
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details
