@@ -39,7 +39,7 @@ To run the project:
 - Run `npm run build` to get a deployable version.
 
 ## Deployment
-[Live Demo](https://kababworld.netlify.com/)
+[Live Demo](https://shakhawathossain.netlify.com/index.html)
 
 
 ## Maintainers
@@ -49,7 +49,7 @@ To run the project:
 - LinkedIn: [@shakhawathossainshamim](https://www.linkedin.com/in/shakhawathossainshamim/)
 - Twitter: [@Shshamim090](https://twitter.com/Shshamim090)
 
-## 🤝 Contributing
+## Contributing
 
 **Always welcome to contribute if you want to make it better.**
 1. Fork it (https://github.com/shshamim63/personal-portfolio)
