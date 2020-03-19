@@ -1,7 +1,7 @@
 import React from 'react';
 import Article from './Article';
 
-const Articles = () => (
+const Articles = ({articleList}) => (
     <section className="site-section bg-light" id="section-blog">
       <div className="container">
         <div className="row mb-5">
@@ -12,15 +12,17 @@ const Articles = () => (
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4">
-            <Article />
-          </div>
-          <div className="col-md-4">
-            <Article />
-          </div>
-          <div className="col-md-4">
-            <Article />
-          </div>
+          {
+            articleList.map(articles => (
+              <div className="col-md-4 mt-3" key={articles.articleId}>
+                <Article  
+                  articlePic={articles.articlePic} 
+                  title={articles.title}
+                  articleLink={articles.articleLink}
+                />
+              </div> 
+            ))
+          }
         </div>
       </div>
     </section>

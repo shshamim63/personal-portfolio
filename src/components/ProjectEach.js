@@ -11,8 +11,8 @@ const EachProject = ({projectTitle, projectGithubLink, imageSource, description,
             <div className="project-footer">
                 <ul className="technologies">
                 {
-                    technologies.map(language => (
-                    <li className="l-items">{language}</li>
+                    technologies.map((language, index) => (
+                    <li className="l-items">{language} key={index+1}</li>
                     ))
                 }
                 </ul>
