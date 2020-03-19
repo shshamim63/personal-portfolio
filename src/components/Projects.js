@@ -13,14 +13,14 @@ const Projects = ({projectList}) => (
       <div className="row">
       {
         projectList.map(project => (
-          <div className="col-md-6">
+          <div className="col-md-6" key={project.projectId}>
             <EachProject
-              key={project.projectId}
               projectTitle ={project.projectTitle}
               projectGithubLink={project.projectGithubLink}
               imageSource={project.imageSource}
               deployLink={project.deployLink}
               description={project.description}
+              technologies = {project.technologies}
             />
           </div>
         ))
