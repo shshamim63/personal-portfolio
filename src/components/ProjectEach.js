@@ -12,7 +12,7 @@ const EachProject = ({projectTitle, projectGithubLink, imageSource, description,
                 <ul className="technologies">
                 {
                     technologies.map((language, index) => (
-                    <li className="l-items">{language} key={index+1}</li>
+                    <li className="l-items" key={index+1}>{language}</li>
                     ))
                 }
                 </ul>

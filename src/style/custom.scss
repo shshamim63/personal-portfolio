@@ -51,6 +51,7 @@ a {
 	padding: 15px 20px!important;
 }
 
+
 .site-navbar {
 	
 	border: none;
@@ -96,21 +97,14 @@ a {
 
 		}
 	}
-	
-
-	.navbar-toggler {
-		@include media-breakpoint-up(lg) {
-			// position: absolute;
-			// right: 0;	
-		}
-	}
-	
-
-	
+		
 	
 
 	// main nav style
 	.navbar-nav {
+		@include media-breakpoint-down(md) {
+			background: aliceblue;
+		}
 		> li {
 			> a {
 				@extend .parent-nav-link-padding;
@@ -249,7 +243,7 @@ a {
 }
 
 .site-section {
-	padding: 5em 0;
+	padding-top: 5em;
 }
 .section-heading {
 	margin-bottom: 30px;
@@ -636,7 +630,6 @@ a {
 		top: -2px;
 	}
 	.blog-entry-text {
-		// border: 1px solid lighten(#798a9a, 30%);
 		border-top: none;
 		padding: 30px;
 		h3 {
@@ -693,14 +686,7 @@ a {
 	}	
 }
 
-.site-footer {
-	padding: 3em 0;
-	p {
-		&:last-child {
-			margin-bottom: 0;
-		}
-	}
-
+.contact {
 	.social-item {
 		display: inline-block;
 		width: 60px;
@@ -716,6 +702,14 @@ a {
 			left: 50%;
 			width: 60%;
 			transform: translate(-50%, -50%);
+		}
+	}
+}
+.site-footer {
+	padding: 1em 0;
+	p {
+		&:last-child {
+			margin-bottom: 0;
 		}
 	}
 }
@@ -753,4 +747,10 @@ a {
 	float: right;
 	display: flex;
 	justify-content: space-between;
+}
+.card-height {
+	height: 300px;
+}
+.article-image {
+	height: 200px;
 }
