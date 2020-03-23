@@ -730,10 +730,12 @@ a {
 
 .l-items {
 	display: inline;
-    border: 4px solid #262983;
+    border: 3px solid #262983;
     padding: .3em;
 	margin-right: .2em;
-	background: #299C8E;
+	background: rgb(123, 245, 231);
+	color: $redish-gray;
+	font-weight: 500;
 }
 
 .project-footer {
