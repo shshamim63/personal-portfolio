@@ -1,5 +1,4 @@
 import React from 'react';
-import 'font-awesome/css/font-awesome.min.css';
 
 class ScrollButton extends React.Component {
   constructor() {
@@ -23,7 +22,7 @@ class ScrollButton extends React.Component {
   }
 
   render () {
-    return <button title='Back to top' className='scroll' 
+    return <button title='Back to top' className='scroll'
             onClick={ () => { this.scrollToTop(); }}>
             <span className='arrow-up'>
               <i className="fa fa-arrow-up"></i>
