@@ -17,7 +17,7 @@ const AboutMe = () => (
 
             <p>
               <a href="#section-contact" className="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a>
-              <a href="#" className="btn btn-secondary px-4 py-2 btn-sm">Download CV</a>
+              <a href={require('../document/Resume_Shakawat.pdf')} className="btn btn-secondary px-4 py-2 btn-sm" download>Download CV</a>
             </p>
           </div>
         </div>

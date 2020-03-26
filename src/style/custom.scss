@@ -51,9 +51,7 @@ a {
 	padding: 15px 20px!important;
 }
 
-
 .site-navbar {
-	
 	border: none;
 	box-shadow: none;
 	border-radius: 0px;
@@ -85,8 +83,8 @@ a {
 		background: transparent!important;
 		@include media-breakpoint-down(md) {
 			background: $white!important;
-			top: 0;
-
+      top: 0;
+      
 			.navbar-brand {
 				display: inline-block;
 				font-size: 18px;
@@ -94,7 +92,6 @@ a {
 				padding: 2px 10px!important;
 				color: $black;
 			}
-
 		}
 	}
 		
@@ -451,94 +448,93 @@ a {
 
 /*--------- Start Portfolio Area -------------*/
 .portfolio-area {
-    .primary-btn {
-        color: $white;
-        background-color: $primary;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .primary-btn {
+    color: $white;
+    background-color: $primary;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .portfolio-area .filters {
-    text-align: center;
+  text-align: center;
 }
 
 .portfolio-area .filters ul {
-    padding: 0;
+  padding: 0;
 }
 
 .portfolio-area .filters ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 18px 15px;
-    cursor: pointer;
-    position: relative;
-    text-transform: uppercase;
-    color: $black;
-    font-size:12px;
-    font-weight: 500;
-    @media(max-width: 736px) {
-        padding: 6px 6px;
-    }
+  list-style: none;
+  display: inline-block;
+  padding: 18px 15px;
+  cursor: pointer;
+  position: relative;
+  text-transform: uppercase;
+  color: $black;
+  font-size:12px;
+  font-weight: 500;
+  @media(max-width: 736px) {
+    padding: 6px 6px;
+  }
 }
 
 .portfolio-area .filters ul li:after {
-    content: "";
-    display: block;
-    width: calc(0% - 60px);
-    position: absolute;
-    height: 2px;
-    background: #333;
-    transition: width 350ms ease-out;
+  content: "";
+  display: block;
+  width: calc(0% - 60px);
+  position: absolute;
+  height: 2px;
+  background: #333;
+  transition: width 350ms ease-out;
 }
 
 .portfolio-area .filters ul li:hover:after {
-    width: calc(100% - 60px);
-    transition: width 350ms ease-out;
+  width: calc(100% - 60px);
+  transition: width 350ms ease-out;
 }
 
 .portfolio-area .filters ul li.active {
-    color: $primary;
+  color: $primary;
 }
 
 .portfolio-area .filters-content {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .portfolio-area .filters-content .show {
-    opacity: 1;
-    visibility: visible;
-    transition: all 350ms;
+  opacity: 1;
+  visibility: visible;
+  transition: all 350ms;
 }
 
 .portfolio-area .filters-content .hide {
-    opacity: 0;
-    visibility: hidden;
-    transition: all 350ms;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 350ms;
 }
 
 .portfolio-area .filters-content .item {
-    text-align: center;
-    cursor: pointer;
-    margin-bottom: 30px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 30px;
 }
 
 .portfolio-area .filters-content .item img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .portfolio-area .filters-content  .p-inner {
-    padding: 20px 0px;
-    text-align:center;
+  padding: 20px 0px;
+  text-align:center;
 }
 
-
 .portfolio-area .filters-content .item .p-inner .cat {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .portfolio-area .filters-content .item img {
-    width: 100%;
+  width: 100%;
 }
 
 
@@ -574,23 +570,23 @@ a {
 }
 
 .single-portfolio{
-    border-radius:5px;  
-    &:hover{
-        .thumb{
-            .overlay-bg{
-                opacity:.85;
-            }
-        }
-    }    
+  border-radius:5px;  
+  &:hover{
+    .thumb{
+      .overlay-bg{
+        opacity:.85;
+      }
+    }
+  }    
 }
 
 .thumb{
-    .overlay-bg{
-        @extend .p1-gradient-bg;
-        opacity:0;
-        border-radius:5px;  
-        @include transition();
-    }
+  .overlay-bg{
+    @extend .p1-gradient-bg;
+    opacity:0;
+    border-radius:5px;  
+    @include transition();
+  }
 }
 
 
@@ -730,8 +726,8 @@ a {
 
 .l-items {
 	display: inline;
-    border: 3px solid #262983;
-    padding: .3em;
+  border: 3px solid #262983;
+  padding: .3em;
 	margin-right: .2em;
 	background: rgb(123, 245, 231);
 	color: $redish-gray;
@@ -768,17 +764,17 @@ a {
 	border: none;
 	
 	&:hover {
-	  	opacity: 3;
+	  opacity: 3;
 	}
 }
   
 .arrow-up {
 	color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -11px;
-    margin-left: -6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -11px;
+  margin-left: -6px;
 }
 	
 .icon-bar {
@@ -798,8 +794,8 @@ a {
 	color: white;
 	font-size: 20px;
 	@media(max-width: 736px) {
-        padding: 6px;
-    }
+    padding: 6px;
+  }
 }
   
 .icon-bar a:hover {
@@ -825,4 +821,3 @@ a {
 	background: #2c4553;
 	color: white;
 }
-  
