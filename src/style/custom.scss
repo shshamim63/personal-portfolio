@@ -858,8 +858,7 @@ a {
 }
 
 .flip-card-back {
-	background: rgb(165,165,173);
-	background: linear-gradient(90deg, rgba(165,165,173,1) 0%, rgba(5,12,68,0.6839110644257703) 17%, rgba(9,32,121,0.4150035014005602) 35%, rgba(2,181,232,1) 83%, rgba(0,212,255,1) 93%);
+	background: #ecf0f1;
 	color: white;
 	transform: rotateY(180deg);
 }
@@ -868,6 +867,6 @@ a {
 	border: 1px solid;
 }
 
-.project-title {
-	color: #f1e49a;
+.margin-25 {
+	margin-top: 25%;
 }

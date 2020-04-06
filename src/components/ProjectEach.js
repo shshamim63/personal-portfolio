@@ -10,9 +10,7 @@ const EachProject = ({projectTitle, projectGithubLink, imageSource, description,
                     <img className="card-img-top" src={require(`../images/${imageSource}`)} alt="Cardcap" />
                 </div>
                 <div class="flip-card-back">
-                    <h1 className="project-title">{projectTitle}</h1>
-                    <hr className="border-heading"/>
-                    <p>
+                    <p className="margin-25">
                         <a href={projectGithubLink} className="btn btn-primary px-4 py-2 btn-sm smoothscroll">Github</a>
                         <a href={deployLink} className="btn btn-secondary px-4 py-2 btn-sm" download>Live Demo</a>
                     </p>
