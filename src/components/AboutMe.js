@@ -12,7 +12,7 @@ const AboutMe = () => (
             <div className="section-heading">
               <h2>About <strong>Me</strong></h2>
             </div>
-            <p className="lead">I am currently working remotely as a technical support engineer for Microverse where I review code and provide technical guidance for web development students in HTML & CSS and Ruby.</p>
+            <p className="lead">I am currently working remotely as a technical support engineer for Microverse where I review code and provide technical guidance for web development students in HTML & CSS and Ruby. Love to watch animation movie and coffee drinker.</p>
             <p className="mb-5  ">I have worked with Ruby on Rails, JavaScript, React and Redux, and have build some awesome projects.</p>
 
             <p>
