@@ -1,10 +1,21 @@
 import React from 'react';
 import githubIcon from '../images/github-144.png';
-import deploy from '../images/launch-96.png';
+import deploy from '../images/live-demo.png';
 
 const EachProject = ({projectTitle, projectGithubLink, imageSource, description, deployLink, technologies}) => (
     <div className="card mt-4">
-        <img className="card-img-top" src={require(`../images/${imageSource}`)} alt="Cardcap" />
+        <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img className="card-img-top" src={require(`../images/${imageSource}`)} alt="Cardcap" />
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
         <div className="card-body">
             <h5 className="card-title">{projectTitle}</h5>
             <p className="card-text">{description}</p>
