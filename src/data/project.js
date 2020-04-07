@@ -15,7 +15,7 @@ export const PROJECT_LIST = [
         description: 'Battleship is a strategy type guessing game.',
         projectGithubLink: 'https://github.com/shshamim63/Battleship_Game',
         imageSource: "battleship.png",
-        technologies: ["JacaScript", "HTML5", "CSS3"],
+        technologies: ["JavaScript", "HTML5", "CSS3", "jest"],
     },
     {
         projectId: 3,
@@ -34,5 +34,14 @@ export const PROJECT_LIST = [
         projectGithubLink: 'https://github.com/shshamim63/car-viewer-api',
         imageSource: "api.jpg",
         technologies: ["Ruby On Rails"],
+    },
+    {
+        projectId: 5,
+        projectTitle: 'Tic-Tac-Toe',
+        deployLink: 'tic-tac-toe-web.netlify.com',
+        description: 'A web based game for two players',
+        projectGithubLink: 'https://github.com/shshamim63/Tic-Tac-Toe',
+        imageSource: "tictactoe.png",
+        technologies: ["JavaScript", "HTML5", "CSS3"],
     }
 ];
