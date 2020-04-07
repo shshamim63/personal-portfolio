@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Article = ({articlePic, title, articleLink}) => (
-    <a href={articleLink} className="custom-card">
+    <a href={articleLink} className="custom-card" target="_blank" rel="noopener noreferrer">
         <div className="card card-height">
             <img src={require(`../images/${articlePic}`)} className="article-image card-img-top" alt="..." />
             <div className="card-body">

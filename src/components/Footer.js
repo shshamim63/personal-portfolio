@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <p className="col-12 text-center">
-                    Shakhawat Hossain Portfolio { today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()} powered by <a href="https://reactjs.org/">React</a> and <a href="https://getbootstrap.com/" target="_blank" className="text-primary">Bootstrap</a><img src={require('../images/heart.png')} className="icon-heart" alt="love"/>
+                    Shakhawat Hossain Portfolio { today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()} powered by <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a> and <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer" className="text-primary">Bootstrap</a><img src={require('../images/heart.png')} className="icon-heart" alt="love"/>
                     </p>
                 </div>
             </div>

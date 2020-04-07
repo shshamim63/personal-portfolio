@@ -12,10 +12,10 @@ const Contact = () => {
                 </div>
                 <div className="col-md-12 text-center contact">
                     <p>
-                        <a href="mailto:shakhawathossain032@gmail.com"className="social-item"><img src={require('../images/mail.png')} className="" alt="mail" /></a>
-                        <a href="https://twitter.com/Shshamim090" className="social-item"><img src={require('../images/twitter.png')} className="" alt="twitter" /></a>
-                        <a href="https://www.linkedin.com/in/shakhawathossainshamim/" className="social-item"><img src={require('../images/linkedin.png')} className="" alt="linkedin" /></a>
-                        <a href="https://github.com/shshamim63" className="social-item"><img src={require('../images/github-144.png')} className="" alt="github" /></a>
+                        <a href="mailto:shakhawathossain032@gmail.com"className="social-item" target="_blank" rel="noopener noreferrer"><img src={require('../images/mail.png')} className="" alt="mail" /></a>
+                        <a href="https://twitter.com/Shshamim090" className="social-item" target="_blank" rel="noopener noreferrer"><img src={require('../images/twitter.png')} className="" alt="twitter" /></a>
+                        <a href="https://www.linkedin.com/in/shakhawathossainshamim/" className="social-item" target="_blank" rel="noopener noreferrer"><img src={require('../images/linkedin.png')} className="" alt="linkedin" /></a>
+                        <a href="https://github.com/shshamim63" className="social-item" target="_blank" rel="noopener noreferrer"><img src={require('../images/github-144.png')} className="" alt="github" /></a>
                     </p>
                 </div>
             </div>
