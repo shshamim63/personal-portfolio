@@ -11,8 +11,8 @@ const EachProject = ({projectTitle, projectGithubLink, imageSource, description,
                 </div>
                 <div class="flip-card-back">
                     <p className="margin-25">
-                        <a href={projectGithubLink} className="btn btn-primary px-4 py-2 btn-sm smoothscroll">Github</a>
-                        <a href={deployLink} className="btn btn-secondary px-4 py-2 btn-sm" download>Live Demo</a>
+                        <a href={projectGithubLink} className="btn btn-primary px-4 py-2 btn-sm smoothscroll" target="_blank" rel="noopener noreferrer">Github</a>
+                        <a href={deployLink} className="btn btn-secondary px-4 py-2 btn-sm" download target="_blank" rel="noopener noreferrer">Live Demo</a>
                     </p>
                 </div>
             </div>
@@ -29,8 +29,8 @@ const EachProject = ({projectTitle, projectGithubLink, imageSource, description,
                 }
                 </ul>
                 <div className="w-30">
-                    <a href={projectGithubLink} className="link"><img className="linkicon" src={githubIcon} alt="githubIcon"/></a>
-                    <a href={deployLink} className="link"><img className="linkicon" src={deploy} alt="githubIcon"/></a>
+                    <a href={projectGithubLink} className="link" target="_blank" rel="noopener noreferrer"><img className="linkicon" src={githubIcon} alt="githubIcon"/></a>
+                    <a href={deployLink} className="link" target="_blank" rel="noopener noreferrer"><img className="linkicon" src={deploy} alt="githubIcon"/></a>
                 </div>
             </div>
         </div>
