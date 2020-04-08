@@ -804,7 +804,7 @@ a {
 }
 
 .twitter {
-	background: rgb(171, 219, 255);
+	background: $twitter;
 	color: white;
 }
   
@@ -869,4 +869,20 @@ a {
 
 .margin-25 {
 	margin-top: 25%;
+}
+
+.bg-brown {
+	background-color: $brown;
+}
+
+.bg-light-brown {
+	background-color: $light-brown;
+}
+
+.bg-twitter {
+	background-color: $twitter;
+}
+
+.bg-pink {
+	background-color: $pink;
 }
