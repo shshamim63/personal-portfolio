@@ -21,6 +21,7 @@ const Projects = ({projectList}) => (
               deployLink={project.deployLink}
               description={project.description}
               technologies = {project.technologies}
+              projectId = {project.projectId}
             />
           </div>
         ))

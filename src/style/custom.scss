@@ -83,7 +83,7 @@ a {
 		background: transparent!important;
 		@include media-breakpoint-down(md) {
 			background: $white!important;
-      top: 0;
+     		top: 0;
       
 			.navbar-brand {
 				display: inline-block;
@@ -726,12 +726,15 @@ a {
 
 .l-items {
 	display: inline;
-  border: 3px solid #262983;
-  padding: .3em;
+  	border: 3px solid #262983;
+  	padding: .3em;
 	margin-right: .2em;
 	background: rgb(123, 245, 231);
 	color: $redish-gray;
 	font-weight: 500;
+	@include media-breakpoint-down(md) {
+		font-size: 13px;
+	}
 }
 
 .project-footer {
@@ -795,8 +798,8 @@ a {
 	color: white;
 	font-size: 20px;
 	@media(max-width: 736px) {
-    padding: 6px;
-  }
+    	padding: 6px;
+  	}
 }
   
 .icon-bar a:hover {
@@ -858,7 +861,6 @@ a {
 }
 
 .flip-card-back {
-	background: #ecf0f1;
 	color: white;
 	transform: rotateY(180deg);
 }

@@ -1,0 +1,1 @@
+export const customColor = ['bg-brown', 'bg-light-brown', 'bg-twitter', 'bg-pink'];

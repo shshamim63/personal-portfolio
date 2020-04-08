@@ -1,15 +1,15 @@
 import React from 'react';
 import githubIcon from '../images/github-144.png';
 import deploy from '../images/live-demo.png';
-
-const EachProject = ({projectTitle, projectGithubLink, imageSource, description, deployLink, technologies}) => (
+import { customColor } from '../data/customColor';
+const EachProject = ({projectTitle, projectGithubLink, imageSource, description, deployLink, technologies, projectId}) => (
     <div className="card mt-4">
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
                     <img className="card-img-top" src={require(`../images/${imageSource}`)} alt="Cardcap" />
                 </div>
-                <div class="flip-card-back">
+                <div className={`flip-card-back ${customColor[projectId % 4]}`}>
                     <p className="margin-25">
                         <a href={projectGithubLink} className="btn btn-primary px-4 py-2 btn-sm smoothscroll" target="_blank" rel="noopener noreferrer">Github</a>
                         <a href={deployLink} className="btn btn-secondary px-4 py-2 btn-sm" download target="_blank" rel="noopener noreferrer">Live Demo</a>
