@@ -4,11 +4,21 @@
 
 ![portfolio](src/images/portfolio.png)
 
-The project is a solid structure for a more complex web page. Is basically a portfolio contains four major sections-<br>
+The project is basically a portfolio, which contains four major sections-<br>
 1. (About Section) User's information
 2. (Project Section) User's recent projects
+
+    - Contains live demo link
+    - Contains Github link.
+
 3. (Article Section) User's blogs
-4. (Contact section) Social icons with email address and mobile. 
+
+    - Contains the title of the article
+
+4. (Contact section) Active social icons.
+    
+    - Twitter, Linkedin, Github, e-mail
+
 ## Table of Contents
 
 - [Background](#background)
@@ -22,7 +32,7 @@ The project is a solid structure for a more complex web page. Is basically a por
 ## Background
 
 1. React
-2. HTML CSS
+2. HTML & SCSS
 3. Bootstrap
 
 ## Install
