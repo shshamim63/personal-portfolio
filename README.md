@@ -26,21 +26,21 @@ The project is a solid structure for a more complex web page. Is basically a por
 3. Bootstrap
 
 ## Install
-1. Run `npm install` on the terminal. It will install all the dependencies required for this project.
+1. Run `yarn install` on the terminal. It will install all the dependencies required for this project.
 
 
 ## Usage
-To run the project:
+To start the project on user end:
 
 - Clone the repository: `git@githubcom:shshamim63/personal-portfolio.git`
-- Run `cd personal-portfolio` to enter into project folder. 
-- Run `npm install` It will install all the dependencies required by the project
-- Run `npm start` to start the development server. It will automatically open the page in your default browser.
-- Run `npm run build` to get a deployable version.
+- Run `cd personal-portfolio` to enter into project directory. 
+- Run `yarn install` It will install all the dependencies required by the project
+- Run `yarn start` to start the development server. It will automatically open the page in your default browser.
+- Run `yarn run build` to get a deployable version.
 
 ## Deployment
-[Live Demo](https://shakhawathossain.netlify.com/index.html)
 
+[Live Demo](https://shakhawathossain.netlify.com/index.html)
 
 ## Maintainers
 
